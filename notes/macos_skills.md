@@ -91,6 +91,10 @@
 ### 常见问题
 1. 不能完成此操作，因为找不到一个或多个需要的项目。（错误代码 -43）重启Finder
 2. [Mac不能按预期睡眠或唤醒](https://support.apple.com/zh-cn/HT204760)
+3. Xcode Server Builder无法关闭
+    1. Xcode -> Preferences -> Server & Bots -> OFF
+    2. Finder进入/Applications/Xcode.app/Contents/Developer/Applications
+    3. 将Xcode Server Builder.app 拖入“系统偏好设置 -> 聚焦 -> 隐私”的列表中
 
 备注: 
      ⌘ Command
