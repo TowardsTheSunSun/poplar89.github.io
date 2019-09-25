@@ -86,7 +86,7 @@
 8. 自定义右键菜单 Right Click Booster
 9. 屏幕保护时钟 Fliqlo
 10. 文件临时存放站 Yoink
-11. Youtube 视频下载 iTube
+11. Youtube 视频下载 iTube、Downie 3
 12. 
     
 ### [小技巧](macos_skills_other.md)
