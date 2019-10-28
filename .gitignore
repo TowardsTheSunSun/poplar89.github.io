@@ -2,5 +2,5 @@
 .idea
 *.iml
 .DS_Store
-poplar89.sublime-project
-poplar89.sublime-workspace
+*.sublime-project
+*.sublime-workspace
