@@ -36,3 +36,6 @@
 6. VMware Fusion虚拟机断网解决办法
     1. `sudo /Applications/VMware\ Fusion.app/Contents/Library/vmnet-cli --status`
     2. `sudo /Applications/VMware\ Fusion.app/Contents/Library/vmnet-cli --start`
+
+7. 删除 ABC 输入法
+    1. 使用 xCode 编辑`~/Library/Preferences/com.apple.HIToolbox.plist`，删除其中相关 ABC 的所有树形结构
