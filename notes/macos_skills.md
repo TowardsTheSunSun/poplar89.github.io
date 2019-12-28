@@ -33,48 +33,18 @@
     
 ### 网络
 1. 系统代理忽略某些主机与域的代理设置：使用英文逗号分隔才生效
-    
-### 应用
-1. 应用数据保存在：`~/Library/Containers/`
-2. Homebrew文档：https://docs.brew.sh/Installation
-    
-### Terminal
-1. 在Finder中打开终端目录或文件: open 文件名/目录地址
-2. lsof -P -itcp:80
-    * -P是显示端口号，而不是程序名. -i 后面跟"协议@server:port"
-3. 登陆界面有其他用户选项：
-    `sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWOTHERUSERS_MANAGED -bool FALSE`
-4. /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-5. /Applications/Sublime Text.app/Contents/SharedSupport/bin/subl
-6. 剩余电量：
-    `system_profiler SPSoftwareDataType SPHardwareDataType SPPowerDataType | grep -E "Serial Number \(system\)|Computer Name|Cycle Count|Charge Remaining|Charge Capacity"`
-7. 修改DNS
-    `networksetup -listallnetworkservices`
-    `networksetup -getdnsservers <workservices>`
-    `sudo networksetup -setdnsservers <workservices>`
-8. expect
-```
-    #!/usr/bin/expect
-    set password "password" 
-    #User Script Start
-    spawn [User Script]
-    #User Script End
-    expect "Password"
-    send "$password\n"
-    interact
-```
         
 ### [快捷键](../imgs/mac_skills_accelerator_key.png)：
 1. 窗口全屏 ⌘ ^ F
 2. 全屏窗口之间切换 ^ ←/→
 3. Finder中显示隐藏文件：⌘ ⇪ .
 4. 锁定屏幕：⌘ ^ Q
-5. 同一软件不同窗口之间切换：⌘ `
+5. 同一软件不同窗口之间切换：⌘ \`
 6. 输入全角空格 拼音输入法状态下 ⌥ Space
 7. Finder中文件剪切
     1. ⌘ C
     2. ⌘ ⌥ V
-    
+
 ### 常用软件
 1. 隐藏菜单栏不常用图标 Bartender 3
 2. 修改快捷键 Karabiner
@@ -89,7 +59,7 @@
 11. Youtube 视频下载 iTube、Downie 3
 12. 
     
-### [小技巧](macos_skills_other.md)
+### [小技巧/Scripts](macos_skills_other.md)
 
 ### 常见问题
 1. 不能完成此操作，因为找不到一个或多个需要的项目。（错误代码 -43）重启Finder
