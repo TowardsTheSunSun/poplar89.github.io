@@ -39,3 +39,4 @@
 
 7. 删除 ABC 输入法
     1. 使用 xCode 编辑`~/Library/Preferences/com.apple.HIToolbox.plist`，删除其中相关 ABC 的所有树形结构
+    已知 bug：设置网络手动指定 ip 时，设置页面卡死。
