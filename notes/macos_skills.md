@@ -46,10 +46,10 @@
     2. ⌘ ⌥ V
 
 ### 常用软件
-1. 隐藏菜单栏不常用图标 Bartender 3
-2. 修改快捷键 Karabiner
+1. 隐藏菜单栏不常用图标 [Bartender 3](https://xclient.info/s/bartender.html)
+2. 修改快捷键 [Karabiner](https://github.com/pqrs-org/Karabiner-Elements)
 3. 窗口操作 Window Tidy
-4. 快速切换hosts文件 SwitchHosts!
+4. 快速切换hosts文件 [SwitchHosts!](https://oldj.github.io/SwitchHosts/)
 5. 状态栏 iStat Menus
 6. 快捷键提示 CheatSheet
 7. 隐藏功能工具 TinkerTool
