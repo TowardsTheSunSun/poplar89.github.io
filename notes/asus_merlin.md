@@ -27,3 +27,12 @@ Merlin 在 DHCP 服务器页面中可以自定义设备的图标，但默认提�
 	+ 重新取样 两次平方
 	+ 选择较小文件以减小文件占用空间
 2.  使用 scp 上传文件到 /jffs/usericon/下，文件名是设备 MAC 地址去掉冒号(:).log
+
+### 2. 调用阿里云 Python SDK 实现 DDNS
+#### 1. 安装 Entware
+1. U盘格式化成 ext2/ext3/ext4 格式, 插入路由器
+2. 按照[教程](https://hqt.ro/how-to-install-new-generation-entware/)安装Entware
+3. opkg install python gcc
+4. 按照[教程](https://pip.pypa.io/en/stable/installing/)安装 pip
+5. pip install aliyun-python-sdk-core aliyun-python-sdk-alidns aliyun-python-sdk-ecs
+6. 参考[教程](https://github.com/poplar89/poplar89-scripts/blob/master/README.md)设置脚本
