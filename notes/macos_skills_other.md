@@ -59,6 +59,6 @@
 
 7. 应用运行时不显示 Dock 栏图标: 在 APP 的Info.plist文件中添加如下内容
 ```
-<key>LSUIElement</key>
-<string>1</string>
+    <key>LSUIElement</key>
+    <string>1</string>
 ```
