@@ -58,7 +58,7 @@
     已知 bug：设置网络手动指定 ip 时，设置页面卡死。
 
 7. 应用运行时不显示 Dock 栏图标: 在 APP 的Info.plist文件中添加如下内容
-```xml
+```
 <key>LSUIElement</key>
 <string>1</string>
 ```
