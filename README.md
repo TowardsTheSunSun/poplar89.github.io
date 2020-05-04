@@ -1,4 +1,5 @@
 ## Welcome
 
-- [MacOS使用习惯/技巧](./notes/macos_skills.md)
-- [Asus-merlin](./notes/asus_merlin.md)
+- [MacOS 使用习惯/技巧](./notes/macos_skills.md)
+- [MacOS 软件推荐](./notes/macos_softwares.md)
+- [Asus Merlin](./notes/asus_merlin.md)

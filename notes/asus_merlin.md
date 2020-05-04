@@ -36,3 +36,11 @@ Merlin 在 DHCP 服务器页面中可以自定义设备的图标，但默认提�
 4. 按照[教程](https://pip.pypa.io/en/stable/installing/)安装 pip
 5. pip install aliyun-python-sdk-core aliyun-python-sdk-alidns aliyun-python-sdk-ecs
 6. 参考[教程](https://github.com/poplar89/poplar89-scripts/blob/master/README.md)设置脚本
+
+### 2. 关于自定义配置
+1. 自定义dns解析
+/jffs/configs/dnsmasq.conf.add文件中, 格式如:
+```
+address=/a.com/b.com/2.2.2.2
+address=/c.com/1.1.1.1
+```
