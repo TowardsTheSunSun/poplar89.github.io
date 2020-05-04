@@ -1,7 +1,5 @@
 ## Sublime Text 插件
 
-[TOC]
-
 ### Package Control
 #### Sublime Text 3 Install
 ```python

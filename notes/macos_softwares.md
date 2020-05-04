@@ -1,7 +1,5 @@
 # MacOS 软件推荐
 
-[TOC]
-
 ## 必备软件
 
 ### Bartender 3
