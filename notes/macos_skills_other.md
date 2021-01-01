@@ -19,6 +19,9 @@
     `networksetup -getdnsservers <workservices>`
     `sudo networksetup -setdnsservers <workservices>`
 
+8. 查看蓝牙设备状态
+    `system_profiler SPBluetoothDataType -json|jq '.SPBluetoothDataType[]'`
+
 ### 小技巧：
 1. 浏览器下载的文件名需要Decode的情况：
     ```
